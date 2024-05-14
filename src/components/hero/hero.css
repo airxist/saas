@@ -1,7 +1,7 @@
 .hero {
     min-height: 448px;
     width: 100%;
-    max-width: 511px;
+    max-width: 571px;
     /* max-width: 45%; */
 }
 
@@ -13,11 +13,16 @@
     margin-right: 54px;
 }
 
+
 .cylinder {
     width: 216px;
     height: 197px;
-    right: -108px;
+    right: -118px;
     top: -99px;
+}
+
+.action .btn-2 {
+    margin-left: 10px;
 }
 
 @media screen and (max-width: 500px) {

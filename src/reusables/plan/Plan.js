@@ -1,19 +1,20 @@
 import ticklight from '../../assets/images/tick-light.png';
 import tickdark from '../../assets/images/tick-dark.png';
+import Tag from '../tag/Tag';
 import './plan.css';
 
 const Plan = ({type,fee, popular, benefits}) => {
   return (
     <div className={`plan rounded-4 shadow-lg ${popular ? "bg-dark text-light my-3 my-lg-0" : null}`}>
       <div className='plan-main'>
-        <div className='type-popular d-flex'>
+        <div className='type-popular d-flex justify-content-between align-items-center'>
             <p className='plan-type m-0'>{type}</p>
-            {popular && <p className='plan-popularity ms-auto m-0'>most popular</p>}
+            {popular && <Tag tag='Most Popular' pop={popular} />}
         </div>
         <div className='plan-fee d-flex align-items-end'>
             <h2 className='m-0'>${fee}</h2>/<small>monthly</small>
         </div>
-        <button className={`plan-btn btn w-100 ${popular ? "bg-light text-dark" : "bg-dark text-light"}`}>
+        <button className={`plan-btn btn w-100 body-bold ${popular ? "bg-light text-dark" : "bg-dark text-light"}`}>
             {type === "free" ? "Get started for free" : "Sign up now"}
         </button>
         <div className='plan-benefits'>

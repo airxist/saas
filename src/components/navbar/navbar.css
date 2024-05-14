@@ -5,6 +5,11 @@
     row-gap: 24px;
 }
 
+.link a {
+    color: rgba(0, 0, 0, 0.596);
+    text-decoration: none;
+}
+
 @media screen and (max-width: 650px) {
     .navbar {
         position: absolute;

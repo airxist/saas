@@ -23,7 +23,7 @@ const Home = () => {
         <Navbar />
         <Toggler />
       </div>
-      <div className='home-info d-flex align-items-center flex-column flex-sm-row'>
+      <div className='home-info d-flex align-items-center flex-column flex-sm-row justify-content-between'>
         <Hero />
         <Visual />
       </div>

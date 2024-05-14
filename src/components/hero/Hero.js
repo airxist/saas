@@ -8,8 +8,8 @@ const Hero = () => {
   return (
     <div className="hero d-flex  flex-column justify-content-between position-relative">
       <Tag tag="Version 2.0 is here" />
-      <h1 className='hero-title'>Pathway to productivity</h1>
-      <p className='hero-brief body-large'>
+      <h1 className='hero-title text-grad'>Pathway to productivity</h1>
+      <p className='hero-brief body-large text-midnight'>
         Celebrate the joy of accomplishment with an app designed to track your progress, motivate your efforts, and celebrate your successes.
       </p>
       <div className='action'>

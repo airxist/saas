@@ -3,7 +3,7 @@ import './button2.css';
 
 const Button2 = () => {
   return (
-    <button className='btn-2 btn py-0'>
+    <button className='btn-2 btn py-0 body-bold'>
       Learn more <img src={arrow} alt='' />
     </button>
   )

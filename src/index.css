@@ -1,17 +1,44 @@
+@font-face {
+  font-family: dm-sans;
+  src: url(./assets/fonts/DMSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: inter-reg;
+  src: url(./assets/fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: inter-med;
+  src: url(./assets/fonts/Inter-Medium.ttf);
+}
+
 :root {
   /* color */
   --black: #000000;
+  --midblue: #001354;
   --midnight: #010d3e;
-  --midtrance: #22222214;
+  --midtrance: #2222221f;
   --white: #ffffff;
-  --dimwhite: #ffffffc1;
+  --dimwhite: #ffffff38;
   --ashwhite: #eaeefe;
   --ashblue: #183ec2;
   --bg-linear: linear-gradient(15deg, #183ec2, #eaeefe, white);
   --gradient2: linear-gradient(#ffffff, #d2dcff);
+  --gradient-text: linear-gradient(#000000, #001354);
+  --pop: linear-gradient(90deg,#dd7dff, #e1cd86, #8bcb92, #71c2ef, #3bffff);
+
+  /* font */
+  --sans: dm-sans;
+  --reg: inter-reg;
+  --med: inter-med;
 }
 
 /* text sizes */
+h1, h2, h4, h5 {
+  font-family: var(--sans);
+}
+
 h1 {
   font-size: 90px;
   line-height: 90px;
@@ -32,6 +59,17 @@ h5 {
   line-height: auto;
 }
 
+.body-large,
+.body-med,
+.body-sm {
+  font-family: var(--reg);
+}
+
+.body-bold {
+  font-size: 16px;
+  font-family: var(--med);
+}
+
 .body-large {
   font-size: 21px;
   line-height: 31px;
@@ -47,9 +85,38 @@ h5 {
   line-height: auto;
 }
 
+.ptag {
+  font-size: 13px;
+  line-height: 31px;
+  font-family: var(--med);
+}
+
+/* text colors */
+
+.text-grad {
+  background: var(--gradient-text);
+}
+
+.text-pop {
+  background: var(--pop);
+}
+
+.text-grad,
+.text-pop {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.text-midnight {
+  color: var(--midnight)
+}
+
+
 @media screen and (max-width: 525px) {
   h1 {
     font-size: 54px;
+    line-height: 60px;
   }
 
   h2 {

@@ -2,7 +2,7 @@ import './footing.css';
 
 const Footing = ({img, h4, para}) => {
   return (
-    <div className='footing border rounded-3 mt-3'>
+    <div className='footing rounded-3 mt-3 mt-md-0 shadow-lg border border-secondary border-5'>
       <div className='footing-img mx-auto'>
         <img src={img} alt='' className='footing-img-main' />
       </div>

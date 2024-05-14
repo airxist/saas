@@ -1,5 +1,8 @@
 .tag {
-    border: 2px solid var(--dimwhite);
-    /* width: 137px; */
+    border: 2px solid var(--midtrance);
     height: 29px;
+}
+
+.lighten {
+    border-color: var(--dimwhite) !important;
 }
