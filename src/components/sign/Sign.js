@@ -3,15 +3,16 @@ import Button2 from '../../reusables/button2/Button2';
 import emojistar from '../../assets/images/emojistar.png';
 import spiral from '../../assets/images/spiral-helix.png';
 import './sign.css';
+import Frame from '../../reusables/frame/Frame';
 
 const Sign = () => {
   return (
     <section className='sign d-flex align-items-center justify-content-center text-center position-relative'>
-        <div className='sign-board'>
-            <h2 className='sign-h2'>Sign up for free today</h2>
-            <p className='sign-para my-3 mx-auto'>
-                Celebrate the joy of accomplishment with an app designed to track your progress and motivate your efforts.
-            </p>
+        <div className='sign-board border border-5'>
+            <Frame
+                h2="Sign up for free today"
+                body="Celebrate the joy of accomplishment with an app designed to track your progress and motivate your efforts."
+            />
             <div className='action'>
                 <Button1 />
                 <Button2 />

@@ -9,14 +9,14 @@ import './connect.css';
 
 const Connect = () => {
   return (
-    <div className='connect border border-light d-flex flex-column justify-content-between'>
+    <div className='connect d-flex flex-column justify-content-between'>
         <div className='logo'>
             <img src={logo} alt='logo' className='d-block' />
-            <small className='body-sm'>
+            <small className='body-sm text-secondary'>
                 Effortlessly turn your ideas into a fully functional, responsive, no-code SaaS website.
             </small>
         </div>
-        <ul className='social-links d-flex border border-light m-0 p-0 align-items-center justify-content-between'>
+        <ul className='social-links d-flex m-0 p-0 align-items-center justify-content-between'>
             <li className='link'><a href='#'><img src={twitter} alt='twitter' /></a></li>
             <li className='link'><a href='#'><img src={insta} alt='insta' /></a></li>
             <li className='link'><a href='#'><img src={pin} alt='pin' /></a></li>

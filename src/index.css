@@ -85,6 +85,11 @@ h5 {
   line-height: auto;
 }
 
+.body-sm-bold {
+  font-size: 14px;
+  font-family: var(--med);
+}
+
 .ptag {
   font-size: 13px;
   line-height: 31px;

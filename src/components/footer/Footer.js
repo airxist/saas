@@ -6,42 +6,42 @@ const Footer = () => {
     <footer className='footer d-flex flex-column flex-md-row justify-content-between'>
       <Connect />
       <div className='linkage d-flex flex-column flex-md-row justify-content-between'>
-        <div className='col border products mt-3 mt-md-0'>
+        <div className='col products mt-3 mt-md-0'>
             <ul className='contents m-0 p-0'>
-                <p className='text-light'><b>Products</b></p>
-                <li className='content'><a href='#' className='body-sm'>Features</a></li>
-                <li className='content'><a href='#' className='body-sm'>Integrations</a></li>
-                <li className='content'><a href='#' className='body-sm'>Updates</a></li>
-                <li className='content'><a href='#' className='body-sm'>FAQ</a></li>
-                <li className='content'><a href='#' className='body-sm'>Pricing</a></li>
+                <p className='text-light body-sm-bold'><b>Products</b></p>
+                <li className='content'><a href='#' className='body-sm text-secondary'>Features</a></li>
+                <li className='content'><a href='#' className='body-sm text-secondary'>Integrations</a></li>
+                <li className='content'><a href='#' className='body-sm text-secondary'>Updates</a></li>
+                <li className='content'><a href='#' className='body-sm text-secondary'>FAQ</a></li>
+                <li className='content'><a href='#' className='body-sm text-secondary'>Pricing</a></li>
             </ul>
         </div>
-        <div className='col border company border mt-3 mt-md-0'>
+        <div className='col company mt-3 mt-md-0'>
         <ul className='contents m-0 p-0'>
-                <p className='text-light'><b>Company</b></p>
-                <li className='content'><a href='#' className='body-sm p-0'>About</a></li>
-                <li className='content'><a href='#' className='body-sm'>Blog</a></li>
-                <li className='content'><a href='#' className='body-sm'>Careers</a></li>
-                <li className='content'><a href='#' className='body-sm'>Manifesto</a></li>
-                <li className='content'><a href='#' className='body-sm'>Press</a></li>
-                <li className='content'><a href='#' className='body-sm'>Contact</a></li>
+                <p className='text-light body-sm-bold'><b>Company</b></p>
+                <li className='content'><a href='#' className='body-sm text-secondary'>About</a></li>
+                <li className='content'><a href='#' className='body-sm text-secondary'>Blog</a></li>
+                <li className='content'><a href='#' className='body-sm text-secondary'>Careers</a></li>
+                <li className='content'><a href='#' className='body-sm text-secondary'>Manifesto</a></li>
+                <li className='content'><a href='#' className='body-sm text-secondary'>Press</a></li>
+                <li className='content'><a href='#' className='body-sm text-secondary'>Contact</a></li>
             </ul>
         </div>
-        <div className='col border resources mt-3 mt-md-0'>
+        <div className='col resources mt-3 mt-md-0'>
         <ul className='contents m-0 p-0'>
-                <p className='text-light'><b>Resources</b></p>
-                <li className='content'><a href='#' className='body-sm'>Examples</a></li>
-                <li className='content'><a href='#' className='body-sm'>Community</a></li>
-                <li className='content'><a href='#' className='body-sm'>Guides</a></li>
-                <li className='content'><a href='#' className='body-sm'>Docs</a></li>
+                <p className='text-light body-sm-bold'><b>Resources</b></p>
+                <li className='content'><a href='#' className='body-sm text-secondary'>Examples</a></li>
+                <li className='content'><a href='#' className='body-sm text-secondary'>Community</a></li>
+                <li className='content'><a href='#' className='body-sm text-secondary'>Guides</a></li>
+                <li className='content'><a href='#' className='body-sm text-secondary'>Docs</a></li>
             </ul>
         </div>
-        <div className='col border legal mt-3 mt-md-0'>
+        <div className='col legal mt-3 mt-md-0'>
         <ul className='contents m-0 p-0'>
-                <p className='text-light'><b>Legal</b></p>
-                <li className='content'><a href='#' className='body-sm'>Privacy</a></li>
-                <li className='content'><a href='#' className='body-sm'>Terms</a></li>
-                <li className='content'><a href='#' className='body-sm'>Security</a></li>
+                <p className='text-light body-sm-bold'><b>Legal</b></p>
+                <li className='content'><a href='#' className='body-sm text-secondary'>Privacy</a></li>
+                <li className='content'><a href='#' className='body-sm text-secondary'>Terms</a></li>
+                <li className='content'><a href='#' className='body-sm text-secondary'>Security</a></li>
             </ul>
         </div>
       </div>

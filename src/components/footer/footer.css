@@ -22,3 +22,7 @@
 .content {
     margin-top: 10px;
 }
+
+.content a {
+    text-decoration: none;
+}
