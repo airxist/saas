@@ -1,12 +1,13 @@
 .footing {
     padding: 40px;
-    width: 486px;
+    width: 100%;
+    max-width: 486px;
     /* height: 538px; */
 }
 
 .footing-img {
-    width: 329px;
-    height: 329px;
+    max-width: 329px;
+    /* height: 329px; */
 }
 
 .footing-img-main {
@@ -21,9 +22,7 @@
 
 @media screen and (max-width: 500px) {
     .footing {
-        padding: 40px;
-        width: 100%;
+        padding: 40px 11.5px;
         max-width: 408px;
-        height: 538px;
     }
 }
