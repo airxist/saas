@@ -39,8 +39,8 @@
     .testimonials {
         overflow: hidden;
     }
-    .reviews {
-        /* transform: translate(-50%); */
+    .review-container {
+        transform: translate(-15%);
         /* width: 50%; */
         /* padding: 41px 0; */
     }
@@ -55,12 +55,7 @@
 }
 
 @media screen and (max-width: 500px) {
-    /* .col {
-        transform: translate(0%);
-        align-items: center;
-    } */
-    /* .colhide {
-        visibility: hidden;
-        display: none;
-    } */
+    .review-container {
+        transform: translate(-30%);
+    }
 }

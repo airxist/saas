@@ -22,9 +22,8 @@ const Testimonials = () => {
         tag="Testimonials"
         h2="What our users say"
       />
-      <div className='reviews mx-auto position-relative border border-info border-5'>
-        {/* <div className='overlay position-absolute'></div> */}
-        <div className='review-container border border-danger border-5 d-flex'>
+      <div className='reviews mx-auto position-relative'>
+        <div className='review-container d-flex'>
           <div className='col d-flex flex-column'>
               <Testimony {...alex} />
               <Testimony {...josh} />
