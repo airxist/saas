@@ -1,0 +1,19 @@
+.everything {
+    padding: 92px 104px 96px 104px;
+}
+
+.foot {
+    width: 100%;
+    max-width: 992px;
+    column-gap: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .everything {
+        padding: 92px 11.5px 144px 11.5px;
+    }
+
+    .everything .frame {
+        padding: 0 36px;
+    }
+}

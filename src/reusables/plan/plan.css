@@ -1,0 +1,12 @@
+.plan {
+    padding: 40px;
+    /* width: calc(100%/3); */
+    width: 351px;
+    box-shadow: 0px 2px 3px 0px var(--black);
+}
+
+.plan-fee,
+.plan-btn,
+.plan-benefits {
+    margin-top: 34px;
+}

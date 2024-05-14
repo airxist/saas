@@ -1,0 +1,17 @@
+.connect {
+    width: 100%;
+    max-width: 240px;
+    height: 247px;
+}
+
+.social-links {
+    list-style-type: none;
+    width: 199px;
+}
+
+@media screen and (max-width: 500px) {
+    .connect {
+        max-width: 397px;
+        height: 150px;
+    }
+}

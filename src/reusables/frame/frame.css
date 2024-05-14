@@ -1,0 +1,14 @@
+.frame {
+    width: 100%;
+    max-width: 540px;
+}
+
+.frame .tag {
+    width: 189px;
+    margin: auto;
+}
+
+.frame-brief,
+.frame-paragraph {
+    margin-top: 20px;
+}

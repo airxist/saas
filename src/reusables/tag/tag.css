@@ -1,0 +1,5 @@
+.tag {
+    border: 2px solid var(--dimwhite);
+    /* width: 137px; */
+    height: 29px;
+}

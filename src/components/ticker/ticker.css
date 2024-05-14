@@ -1,0 +1,34 @@
+.ticker-container {
+    height: 132px;
+    width: 100%;
+    /* background-image: url(../../assets/images/Logo\ Ticker.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; */
+    overflow: hidden;
+}
+
+.ticker {
+    width: 100%;
+    height: 100%;
+    /* border: solid 2px orange; */
+}
+
+.ticker-img-main {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    .ticker-img-main {
+        transform: translateX(-170px);
+        width: unset;
+        height: unset;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .ticker-img-main {
+        transform: translate(-350px);
+    }
+}

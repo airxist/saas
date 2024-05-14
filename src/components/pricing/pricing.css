@@ -1,0 +1,16 @@
+.pricing {
+    padding: 79px 48px;
+}
+
+.plan-board {
+    margin-top: 40px;
+    width: 100%;
+    max-width: 1103px;
+    /* overflow: hidden; */
+}
+
+@media screen and (max-width: 500px) {
+    .pricing {
+        padding: 75px 39.5px;
+    }
+}

@@ -1,0 +1,47 @@
+.sign {
+    width: 100%;
+    height: 472px;
+    background: var(--gradient2);
+    overflow: hidden;
+}
+
+.sign-board {
+    width: 100%;
+    max-width: 540px;
+    height: 126px;
+}
+
+.sign-para {
+    width: 100%;
+    max-width: 447px;
+}
+
+.emoji-div {
+    left: 0;
+    top: 0;
+}
+
+.spiral-div {
+    bottom: 0;
+    right: 0;
+}
+
+.icon {
+    width: 362px;
+    height: 362px;
+}
+
+@media screen and (max-width: 900px) {
+    .emojistar {
+        transform: translate(-50%);
+    }
+    .spiral {
+        transform: translate(35%);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .sign {
+        padding: 54px 77.5px;
+    }
+}

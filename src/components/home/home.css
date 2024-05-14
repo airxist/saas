@@ -1,0 +1,52 @@
+.home {
+    /* background: linear-gradient(25deg, var(--midlight) 2%, var(--midtrance) , var(--white)); */
+    background: var(--bg-linear);
+    /* min-height: 100vh; */
+    background-size: 300%;
+    background-position: 40% 30%;
+    width: 100%;
+    /* max-width: 1200px; */
+}
+
+.bar {
+    background-color: var(--black);
+    height: 46px;
+}
+
+.bar-info {
+    color: var(--dimwhite);
+}
+
+.bar button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.bar-nav {
+    padding: 20px;
+    height: 81px;
+}
+
+.home-info {
+    min-height: 710px;
+    padding: 20px 5px 42px 43px;
+    width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    .home {
+        /* min-height: 20px */
+    }
+
+    .bar-info {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .home-info {
+        padding: 34px 20px 75px 20px;
+    }
+
+}

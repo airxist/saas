@@ -1,0 +1,57 @@
+.visual {
+    max-width: 948px;
+    width: 100%;
+    height: 648px;
+    /* background-image: url(../../assets/Visual.svg); */
+    /* background-color: red; */
+    /* overflow: hidden; */
+}
+
+.visual-img-main {
+    object-fit: contain;
+    /* width: 100%;
+    height: 100%; */
+    /* border: solid 3px black */
+}
+
+.torus {
+    width: 231.18px;
+    /* height: 231.18px; */
+    right: 0;
+    bottom: -143px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .visual {
+        max-width: 333px;
+        overflow: hidden;
+    }
+
+    .visual-img-main {
+        /* display: none; */
+        transform: translate(-60px);
+    }
+
+    /* .torus {
+        display: none;
+    } */
+}
+
+@media screen and (max-width: 500px) {
+    .visual {
+        max-width: 388px;
+        max-height: 388px;
+        /* overflow:visible; */
+        margin-top: 75px;
+    }
+    
+
+    .visual-img-main {
+        width: 100%;
+        height: 100%;
+        object-position: center;
+        object-fit: cover;
+        transform: unset;
+    }
+}

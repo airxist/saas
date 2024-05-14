@@ -1,0 +1,25 @@
+.logo-box {
+    width: 15%;
+    min-width: 182px;
+    height: 41px;
+    row-gap: 8px;
+}
+
+.logo-main {
+    width: 40px;
+    height: 41px;
+    /* transform: rotate(50deg); */
+}
+
+@media screen and (max-width: 475px) {
+    .logo-box  {
+        min-width: fit-content;
+        row-gap: 0px;
+    }
+
+    .made, .framer-box {
+        display: none !important;
+    }
+
+
+}

@@ -1,0 +1,13 @@
+.navbar {
+    width: 50%;
+    min-width: 524px;
+    height: 39px;
+    row-gap: 24px;
+}
+
+@media screen and (max-width: 650px) {
+    .navbar {
+        position: absolute;
+        display: none;
+    }
+}

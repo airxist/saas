@@ -1,0 +1,30 @@
+.hero {
+    min-height: 448px;
+    width: 100%;
+    max-width: 511px;
+    /* max-width: 45%; */
+}
+
+.hero .tag {
+    width: 137px;
+}
+
+.hero-brief {
+    margin-right: 54px;
+}
+
+.cylinder {
+    width: 216px;
+    height: 197px;
+    right: -108px;
+    top: -99px;
+}
+
+@media screen and (max-width: 500px) {
+    /* .hero {
+        column-gap: 24px;
+    } */
+    .hero-brief {
+        margin-right: unset;
+    }
+}

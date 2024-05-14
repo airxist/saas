@@ -1,0 +1,15 @@
+.toggler {
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+
+.toggle-btn {
+    object-fit: cover;
+}
+
+@media screen and (max-width: 650px) {
+    .toggler {
+        display: block;
+    }
+}

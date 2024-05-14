@@ -1,0 +1,10 @@
+.article {
+    padding: 40px 0;
+    /* width: calc(100%/4); */
+    width: 260px;
+    height: 225px;
+}
+
+.article-h5 {
+    margin: 10px 0;
+}
